@@ -1,0 +1,114 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#product-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.product-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #000000;
+    display: inline-block;
+    text-align:  center;
+    border-radius: 8px;
+    margin: 5px 5px;
+    height: 420px;
+    padding: 5px;
+    width: 300px;
+}
+.product-image {
+    border-radius: 4px;
+    height: 200px;
+    width: 200px;
+}
+.product-card-h3 {
+    margin-top: 8px;
+    font-size: 18px;
+    color: black;
+}
+.product-card-p {
+    font-size: 24px;
+    color:red;
+}
+.product-card-button {
+    background-color: #1586ff;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.product-card-button:hover {
+    background-color: #0153ac;
+    color : white;
+}
+.modal{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.363);
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    position: fixed;
+    display: none;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+}
+.modal-content{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    padding: 2rem;
+    height: 70%;
+    width: 30%;
+    gap: 30px;
+}
+#modalImage{
+    height: 200px;
+    width: 200px;
+}
+
+#modalTitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#modalDescription{
+    font-size: 18px;
+    
+}
+#modalPrice{
+    font-weight: bold;
+    font-size: 24px;
+}
+#modalPrice b{
+    color: red;
+}
+#closeModal{
+    background-color: #1586ff;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#closeModal:hover {
+    background-color: #0056b3;
+}
